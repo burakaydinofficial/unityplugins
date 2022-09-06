@@ -19,7 +19,7 @@ apple_core_library_paths = [
 ]
 
 # Script will search this path for instances of Unity.app to track their versions and executable paths
-default_unity_install_root_path = pathlib.Path("/Applications/Unity")
+default_unity_install_root_path = pathlib.Path("/Volumes/StorageDisk/Unity")
 
 # ---------------------------------------
 # Plug-in Identifiers (-p, --plugin-list)
