@@ -816,6 +816,10 @@ namespace Apple.Accessibility
             }
 
             Camera cam = Camera.main;
+
+            if (!cam)
+                return;
+
             Vector3 worldPos = transform.position;
             Vector3 screenPos = cam.WorldToScreenPoint(worldPos);
             Vector3 ul = screenPos;
